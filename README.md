@@ -29,3 +29,4 @@ ComMark is evealuated against eight well-established watermarking schemes with t
 - StableSignature: StableSignature ensures all generated images embed a binary signature by fine-tuning the decoder of Latent Diffusion Models (LDM) with a pre-trained watermark encoder, decoder, and extractor.[Open-source Implementation](https://github.com/facebookresearch/stable_signature)
 - PTW: PTW, a leading in-processing watermarking scheme for StyleGAN models, uses pivotal tuning to freeze the original model's parameters as a pivot while fine-tuning a secondary model with a watermark regularization term, enabling it to generate watermarked images.[Open-source Implementation](https://github.com/nilslukas/gan-watermark)
   
+The final version of the source code, binaries and scripts for ComMark will be provided once the paper is accepted.
