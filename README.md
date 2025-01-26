@@ -1,10 +1,10 @@
 # ComMark: A Query-Free, Integrity-Preserving Black-Box Attack Framework for Invisible Image Watermarking Using Image Compressive Sensing
 
-We introduce \ComMark, a query-free, integrity-preserving black-box attack framework targeting invisible image watermarking schemes designed to prevent generative AI misuse. \ComMark uncovers a critical vulnerability: embedding watermarks in image latent representations makes these schemes susceptible to exploitation. Leveraging image compressive sensing techniques, \ComMark sparsifies latent representations and reconstructs original images, effectively disrupting embedded watermarks while preserving image integrity
+We introduce ComMark, a query-free, integrity-preserving black-box attack framework targeting invisible image watermarking schemes designed to prevent generative AI misuse. ComMark uncovers a critical vulnerability: embedding watermarks in image latent representations makes these schemes susceptible to exploitation. Leveraging image compressive sensing techniques, ComMark sparsifies latent representations and reconstructs original images, effectively disrupting embedded watermarks while preserving image integrity
 (encompassing both  quality and fidelity)
 as measured by traditional metrics, all in a black-box, query-free manner without accessing watermarking schemes and detectors.
 
-Our extensive evaluation on eight advanced invisible watermarking schemes demonstrates \ComMark's superior effectiveness, reducing average watermark detection accuracy from 100\% to 39.1\% on average and surpassing state-of-the-art attack methods. Additionally, \ComMark successfully compromises both post-processing and in-processing watermarking schemes without noticeably degrading image integrity. These findings indicate that current invisible watermarking approaches are insufficient for mitigating generative AI misuse, highlighting the need for ongoing research.
+Our extensive evaluation on eight advanced invisible watermarking schemes demonstrates ComMark's superior effectiveness, reducing average watermark detection accuracy from 100% to 39.1% on average and surpassing state-of-the-art attack methods. Additionally, ComMark successfully compromises both post-processing and in-processing watermarking schemes without noticeably degrading image integrity. These findings indicate that current invisible watermarking approaches are insufficient for mitigating generative AI misuse, highlighting the need for ongoing research.
 
 # Installations
 - pytorch
