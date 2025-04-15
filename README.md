@@ -1,4 +1,4 @@
-# ComMark: A Query-Free, Integrity-Preserving Black-Box Attack Framework for Invisible Image Watermarking Using Image Compressive Sensing
+# ComMark: A Query-Free, Integrity-Preserving Black-Box Attack Framework for Invisible Image Watermarking
 
 We introduce ComMark, a query-free, integrity-preserving black-box attack framework targeting invisible image watermarking schemes designed to prevent generative AI misuse. ComMark uncovers a critical vulnerability: embedding watermarks in image latent representations makes these schemes susceptible to exploitation. Leveraging image compressive sensing techniques, ComMark sparsifies latent representations and reconstructs original images, effectively disrupting embedded watermarks while preserving image integrity
 (encompassing both  quality and fidelity)
